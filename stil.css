@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "CabinSketch";
+    src: url("CabinSketch-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-image: url("slikee/pozadinska_slika.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav ul {
+    padding: 10px;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    background-color: rgb(18, 168, 178);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-family: "CabinSketch", sans-serif;
+}
+
+nav li:hover {
+    background-color: rgb(14, 160, 82);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.home-link {
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 18px;
+    color: rgb(128, 47, 34);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.home-link:hover {
+    color: rgb(14, 160, 82);
+}
+
+p {
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    width: 600px;
+    background-color: antiquewhite;
+    padding: 15px;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    font-family: "CabinSketch", sans-serif;
+    color: rgb(147, 180, 181);
+    text-align: center;
+}
+
+.vjezbaa {
+    margin-bottom: 40px;
+}
+
+iframe, video {
+    width: 100%;
+    height: 450px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.opis {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    gap: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+ul {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    background-color: rgb(18, 168, 178);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    color: white;
+    font-family: "CabinSketch", sans-serif;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+li:hover {
+    background-color: rgb(18, 168, 178);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+li:active {
+    background-color: rgb(14, 160, 82);
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+li a {
+    color: rgb(240, 240, 240);
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
