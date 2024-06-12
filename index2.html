@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Pia Hercigonja - moj html dokument</title>
+        <title>Pia Hercigonja - moj html dokument</title>
         <link rel="stylesheet" href="stil.css">
-
+        <style>
+            @font-face {
+                font-family: "PiaHercigonja2";
+                src: url("PiaHercigonja2.ttf") format("ttf");
+            }
+            .custom-font {
+                font-family: "PiaHercigonja2", sans-serif;
+            }
+        </style>
     </head>
     <body>
-        <h1  style="color:rgb(149, 29, 47);">Pia Hercigonja</h1>
-        <h2  style="color:rgb(111, 27, 49);">Kolegij Digitalni multimedij 1</h2>
-        <p style="color:rgb(20, 124, 112);"> Ja sam Pia Hercigonja, studentica Grafičkog fakulteta. Dobrodošli na moje stranice!</p>
-       <nav>
-        <ul>
-            <li><a href="o_meni.html">O meni</a></li>
-            <li><a href="video2.html">Video</a></li>
-            <li><a href="vjezbe.html">Vježbe</a></li>
-        </ul>
-    </nav>
-      
+        <h1 class="custom-font" style="color:rgb(149, 29, 47);">Pia Hercigonja</h1>
+        <h2 style="color:rgb(111, 27, 49);">Kolegij Digitalni multimedij 1</h2>
+        <p style="color:rgb(20, 124, 112);">Ja sam Pia Hercigonja, studentica Grafičkog fakulteta. Dobrodošli na moje stranice!</p>
+        <nav>
+            <ul>
+                <li><a href="o_meni.html">O meni</a></li>
+                <li><a href="video2.html">Video</a></li>
+                <li><a href="vjezbe.html">Vježbe</a></li>
+            </ul>
+        </nav>
     </body>
 </html>
